@@ -3,7 +3,7 @@ from django.db import models
 
 class CompanyData(models.Model):
     companyName = models.CharField(max_length=200)
-    stockCode = models.CharField(max_length=200)
+    companystockCode = models.CharField(max_length=200)
     companyBuz = models.TextField()
     companyProd = models.TextField()
     companyListStartDate = models.CharField(max_length=200)
